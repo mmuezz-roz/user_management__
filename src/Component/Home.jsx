@@ -1,14 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Real from './Real'
-
+import TaskDashboard from './Dashboard/TaskDashboard'
 
 function Home() {
   return (
-    <div>
-      <div><Navbar /></div>
-
-      <div><Real /></div>
+    <div className="h-screen w-screen">
+      <TaskDashboard />
     </div>
   )
 }
